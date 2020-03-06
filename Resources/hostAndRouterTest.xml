@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Host>
+  <HostName>H1</HostName>
+  <RecPort>8001</RecPort>
+  <IP>127.0.0.1</IP>
+  <logIP>12.22.0.1</logIP>
+  <Gateway>10.0.0.1</Gateway> <!-- IP interfejsu routera brzegowego-->
+  <CloudPort>9000</CloudPort>
+  <RemoteHosts>
+    <Host>12.22.0.2</Host>
+    <Host>12.22.0.3</Host>
+  </RemoteHosts>
+</Host>

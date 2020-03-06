@@ -1,0 +1,11 @@
+start_dmg.bat
+
+pêtla przy komunikacji H1 -> H2
+b³¹d w R2, aby naprawiæ
+usuñ z NHLFE wpis o Id = 9, (czyli index = 8)
+dodaj nowy wpis:
+Id = 9
+LabelOut = 50
+IntOut = 10.0.0.3
+NextOperation = 0
+Operation = PUSH

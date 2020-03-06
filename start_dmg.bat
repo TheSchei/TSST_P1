@@ -1,0 +1,9 @@
+start ./CableCloud/bin/Debug/CableCloud.exe ./Resources/Cloud.xml
+start ./Host/bin/Debug/Host.exe ./Resources/H1.xml
+start ./Host/bin/Debug/Host.exe ./Resources/H2.xml
+start ./Host/bin/Debug/Host.exe ./Resources/H3.xml
+start ./Router/bin/Debug/Router.exe ./Resources/R1P.xml
+start ./Router/bin/Debug/Router.exe ./Resources/R2P.xml
+start ./Router/bin/Debug/Router.exe ./Resources/R3.xml
+start ./Router/bin/Debug/Router.exe ./Resources/R4.xml
+start ./Manager/bin/Debug/Manager.exe ./Resources/manager.xml

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Router>
+  <RouterName>R1</RouterName>
+  <RecPort>9000</RecPort>
+  <IP>127.0.0.1</IP>
+  <logIP>10.0.0.1</logIP>
+  <CloudPort>8001</CloudPort>
+  <FIB>
+	<Element>
+		<destIP>12.22.0.1</destIP>
+		<outInt>12.22.0.1</outInt>
+	</Element>
+	<Element>
+		<destIP>12.22.0.2</destIP>
+		<outInt>12.22.0.1</outInt>
+	</Element>
+	<Element>
+		<destIP>12.22.0.3</destIP>
+		<outInt>10.0.0.2</outInt>
+	</Element>
+  </FIB>
+</Router>
